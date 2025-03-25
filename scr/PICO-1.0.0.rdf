@@ -1,0 +1,991 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/administrator/ontologies/2025/2/untitled-ontology-51/"
+     xml:base="http://www.semanticweb.org/administrator/ontologies/2025/2/untitled-ontology-51/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:pico="http://purl.obolibrary.org/pico/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:wiki="https://www.wikidata.org/wiki/"
+     xmlns:mondo="http://purl.obolibrary.org/obo/mondo#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="https://schema.org/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:Property="https://www.wikidata.org/wiki/Property:"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:resource="http://semanticscience.org/resource/"
+     xmlns:owlready_ontology="http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pico.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pico.owl/1.0.0"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/am79wdte.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/cf8tsnxe.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/cmvu7c29.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/d8i2imco.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/es5uc9od.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/eugv5ks0.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/f7tbuyjk.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/g3vvd0ig.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/gvbihsw8.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/inu7nca0.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/umsxs7rq.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/uui6g03d.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/v8gk2sc4.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/yi396b8p.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/zwt26vee.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/0wy78vpv.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/7g7qtkn6.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/8a7cu3yb.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
+        <owl:imports rdf:resource="http://purl.org/dc/elements/1.1/"/>
+        <dc:creator xml:lang="en">Jian Guan (关健)</dc:creator>
+        <dc:creator xml:lang="en">Jiangan Xie (谢江安)</dc:creator>
+        <dc:date xml:lang="en">2025-01-18</dc:date>
+        <dc:description xml:lang="en">The Pathogen-related Informed Consent Ontology (PICO) is an ontology for the informed consent and informed consent process in the pathogen-related medical fields, especially for pathological data use.</dc:description>
+        <dc:title xml:lang="en">Pathogen-related Informed Consent Ontology (PICO：病原体相关知情同意本体)</dc:title>
+        <terms:license xml:lang="en">http://creativecommons.org/licenses/by/4.0/</terms:license>
+        <rdfs:comment xml:lang="en">PICO is an application ontology for the standardization of pathogen-related informed consent data and the classification of term logical relations. The current focus of PICO development is to represent different pathogenetic data use in such a way that it will support consistent representation of medical questionnaires.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://github.com/PICO-ontology/PICO</rdfs:seeAlso>
+        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000004 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/PICO_0000004">
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-22T11:25:34Z</dc:date>
+        <rdfs:comment xml:lang="zh-cn">中文翻译</rdfs:comment>
+        <rdfs:label xml:lang="en">chinese translation</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000430"/>
+        <obo:IAO_0000115 xml:lang="en">Data and its information recorded electronically or in otherwise format, which can be identified to the special individual alone or in combination with other information. Data on persons (identity or reflecting their specific activities).</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">TEAM GUIDELINES</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="zh-cn">个体水平数据</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-22T11:05:30Z</dc:date>
+        <rdfs:label xml:lang="en">individual-level data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000093"/>
+        <obo:IAO_0000115 xml:lang="en">Information that once leaked, illegally provided or abused, personal information that may endanger the safety of the person and property, and can easily lead to damage to personal reputation, physical and mental health or discriminatory treatment.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">TEAM GUIDELINES</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="zh-cn">敏感个人信息</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-22T11:14:30Z</dc:date>
+        <rdfs:label xml:lang="en">sensitive personal information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000430"/>
+        <obo:IAO_0000115 xml:lang="en">Data that have been collected from researches or routine clinical work and being stored for future use.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">TEAM GUIDELINES</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="zh-cn">现有数据</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-22T11:16:52Z</dc:date>
+        <rdfs:label xml:lang="en">stored data</rdfs:label>
+        <schema:alternateName xml:lang="en">existing data</schema:alternateName>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000430"/>
+        <obo:IAO_0000115 xml:lang="en">The data which has not yet been consolidated.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">松散数据</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-22T11:28:34Z</dc:date>
+        <rdfs:label xml:lang="en">unconsolidated data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PICO_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">Information that once leaked, illegally provided or abused, personal information that may endanger the safety of the person and property, and can easily lead to damage to personal reputation, physical and mental health or discriminatory treatment.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">TEAM GUIDELINES</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="zh-cn">个人健康信息</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-22T11:34:15Z</dc:date>
+        <rdfs:label xml:lang="en">personal health information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000055"/>
+        <obo:IAO_0000115 xml:lang="en">Data processing rule is a rule for data processing.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">数据处理规则</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-22T11:44:34Z</dc:date>
+        <rdfs:label xml:lang="en">data processing rule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PICO_0000007"/>
+        <obo:IAO_0000115 xml:lang="en">Personal information processing rule is a rule for personal information processing.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">个人信息处理规则</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-22T11:47:26Z</dc:date>
+        <rdfs:label xml:lang="en">personal information processing rule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PICO_0000006"/>
+        <obo:IAO_0000115 xml:lang="en">Data that with personal genetic or genomic information contains genetic privacy information that can be reversed Through bio-informatics analysis.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">遗传信息</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-22T11:50:37Z</dc:date>
+        <rdfs:label xml:lang="en">genetic information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000010">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_010298"/>
+        <obo:IAO_0000115 xml:lang="en">Data that are produced and collected through basic research, applied research, and experimental development (collectively known as research), and through observation monitoring, investigation, and testing (not research). They are original and derived data used for scientific research activities or solving science problems in the field of medicine and the fusion of medical and other sciences.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">医学科学数据</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-22T12:03:31Z</dc:date>
+        <rdfs:label xml:lang="en">medical scentific data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000011">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_010298"/>
+        <obo:IAO_0000115 xml:lang="en">Public health data is any data &quot;related to publi health conditions, reproductive outcomes, causes of death, and quality of life&quot;.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Health_data</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="zh-cn">公共卫生数据</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-22T12:06:09Z</dc:date>
+        <rdfs:label xml:lang="en">public health data</rdfs:label>
+        <schema:alternateName xml:lang="en">health-related scientific data</schema:alternateName>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">Article linked data is the data that come from public articles.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">论文关联数据</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-22T23:59:23Z</dc:date>
+        <rdfs:label xml:lang="en">article linked data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PICO_0000012"/>
+        <obo:IAO_0000115 xml:lang="en">Data (usually datasets, or database) that can support the research purpose, materials and methods, as well as can resulted in the results, conclution of an article by data analysis.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">论文关联核心数据</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T00:02:43Z</dc:date>
+        <rdfs:label xml:lang="en">article linked core data</rdfs:label>
+        <schema:alternateName xml:lang="en">article supporting data</schema:alternateName>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">The process of generating data.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">数据生成</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T00:08:04Z</dc:date>
+        <rdfs:label xml:lang="en">data creating</rdfs:label>
+        <schema:alternateName xml:lang="en">data generation</schema:alternateName>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000213"/>
+        <obo:IAO_0000115 xml:lang="en">An act of putting data to use.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">数据应用</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T00:11:03Z</dc:date>
+        <rdfs:label xml:lang="en">data application</rdfs:label>
+        <schema:alternateName xml:lang="en">data use</schema:alternateName>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">To convey data from one person, place, or situation to another.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Data_communication</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="zh-cn">数据转移</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T00:13:21Z</dc:date>
+        <rdfs:label xml:lang="en">data transfer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PICO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">To use data again especially in a different way or after reclaiming or reprocessing.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">数据再利用</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T00:15:15Z</dc:date>
+        <rdfs:label xml:lang="en">data reusing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">Data exchange is the process of taking data structured under a source schema and transforming it into a target schema, so that the target data is an accurate representation of the source data. Data exchange allows data to be shared between different computer programs.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Data_exchange</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="zh-cn">数据交换</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T00:20:08Z</dc:date>
+        <rdfs:label xml:lang="en">data exchange</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000352"/>
+        <obo:IAO_0000115 xml:lang="en">Big data analysis include capturing data, data storage, data analysis, search, sharing, transfer, visualization, querying, updating, information privacy, and data source.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Big_data</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="zh-cn">大数据分析</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T00:22:26Z</dc:date>
+        <rdfs:label xml:lang="en">big data analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C113644"/>
+        <obo:IAO_0000115 xml:lang="en">(a) Stakeholder (corporate), a group, corporate, organization, member, or system that affects or can be affected by an organization&apos;s actions.
+(b) Project stakeholder, a person, group, or organization with an interest in a project.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Stakeholder</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="zh-cn">利益相关者；干系人</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T00:29:42Z</dc:date>
+        <rdfs:label xml:lang="en">stakeholder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PICO_0000020"/>
+        <obo:IAO_0000115 xml:lang="en">An organization or person that processes data.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="en">数据干系人</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T00:31:49Z</dc:date>
+        <rdfs:label xml:lang="en">data stakeholder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PICO_0000021"/>
+        <obo:IAO_0000115 xml:lang="en">An organization or an individual that independently decide the purpose and method of processing in practice of personal information processing activities.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">个人信息处理者</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T00:35:42Z</dc:date>
+        <rdfs:label xml:lang="en">personal information processor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PICO_0000021"/>
+        <obo:IAO_0000115 xml:lang="en">An institution or an individual that have medical scientific data and have qualifications and/ or right to decide share with a third party institutions or researchers.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">数据持有者</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T00:37:19Z</dc:date>
+        <rdfs:label xml:lang="en">data holder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000458"/>
+        <obo:IAO_0000115 xml:lang="en">The action, process, or occupation of risk supervising,especially by a department.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">风险监管</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T00:48:38Z</dc:date>
+        <rdfs:label xml:lang="en">risk supervision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000458"/>
+        <obo:IAO_0000115 xml:lang="en">Free availability  to the literature or data on the public internet, permitting any users to read, download, copy, distribute, print, search, and / or link to the full texts of these articles, datasets, crawl them for indexing, pass them as data to software, or use them for any other lawful purpose, without financial, legal, or technical barriers other than those inseparable from gaining access to the internet itself.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Open_access</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="zh-cn">开放获取</obo:PICO_0000004>
+        <obo:T4FS_0000564 xml:lang="en">Open access (OA) is a set of principles and a range of practices through which nominally copyrightable publications are delivered to readers free of access charges or other barriers.[1] With open access strictly defined (according to the 2001 definition), or libre open access, barriers to copying or reuse are also reduced or removed by applying an open license for copyright, which regulates post-publication uses of the work.</obo:T4FS_0000564>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T00:50:13Z</dc:date>
+        <rdfs:label xml:lang="en">open access</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000141"/>
+        <obo:IAO_0000115 xml:lang="en">Hierarchical storage management (HSM), also known as tiered storage, is a data storage and data management technique that automatically moves data between high-cost and low-cost storage media.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Hierarchical_storage_management</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="zh-cn">分级管理</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T00:54:09Z</dc:date>
+        <rdfs:label xml:lang="en">hierarchical management</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_003081"/>
+        <obo:IAO_0000115 xml:lang="en">Big data ethics, also known simply as data ethics, refers to systemizing, defending, and recommending concepts of right and wrong conduct in relation to data, in particular personal data.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Big_data_ethics</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="zh-cn">数据伦理</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T01:00:57Z</dc:date>
+        <rdfs:label xml:lang="en">data ethics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBCS_0000058"/>
+        <obo:IAO_0000115 xml:lang="en">PHI sensitivity is the control of access to information or knowledge that might result in loss of an advantage or level of security if disclosed to others.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Information_sensitivity</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="zh-cn">个人健康信息敏感性</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T01:12:47Z</dc:date>
+        <rdfs:label xml:lang="en">personal health information sensitivity</rdfs:label>
+        <schema:alternateName xml:lang="en">PHI sensitivity</schema:alternateName>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <obo:IAO_0000115 xml:lang="en">A common disease is a disease that mild and frequently.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">常见疾病</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T01:17:30Z</dc:date>
+        <rdfs:label xml:lang="en">common disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000030">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000088"/>
+        <obo:IAO_0000115 xml:lang="en">A health examination record is a health record where health data and other information related to the care of a patient is maintained by the patient.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Personal_health_record</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="zh-cn">健康体检记录</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T01:32:49Z</dc:date>
+        <rdfs:label xml:lang="en">health examination record</rdfs:label>
+        <schema:alternateName xml:lang="en">personal health record (PHR)</schema:alternateName>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_000526"/>
+        <obo:IAO_0000115 xml:lang="en">A severe sexually transmitted disease is is an severe infection that is spread by sexual activity, especially vaginal intercourse, anal sex, oral sex, or sometimes manual sex.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Sexually_transmitted_infection</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="zh-cn">严重性传播疾病</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T01:39:02Z</dc:date>
+        <rdfs:label xml:lang="en">severe sexually transmitted disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005485"/>
+        <obo:IAO_0000115 xml:lang="en">Severe psychological disorder is a behavioral or mental pattern that causes significant distress or impairment of personal functioning.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Mental_disorder</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="zh-cn">严重心理障碍</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T01:49:27Z</dc:date>
+        <rdfs:label xml:lang="en">severe psychological disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005485"/>
+        <obo:IAO_0000115 xml:lang="en">An affective disturbance is any of a group of conditions of mental and behavioral disorder where the main underlying characteristic is a disturbance in the person&apos;s mood.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Mood_disorder</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="zh-cn">情感障碍</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T01:51:27Z</dc:date>
+        <rdfs:label xml:lang="en">affective disturbance</rdfs:label>
+        <schema:alternateName xml:lang="en">affective disorder</schema:alternateName>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002050"/>
+        <obo:IAO_0000115 xml:lang="en">Severe depression also known as clinical depression, is a mental disorder characterized by at least two weeks of pervasive low mood, low self-esteem, and loss of interest or pleasure in normally enjoyable activities.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Major_depressive_disorder</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="zh-cn">严重抑郁症</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T02:09:08Z</dc:date>
+        <rdfs:label xml:lang="en">severe depression</rdfs:label>
+        <schema:alternateName xml:lang="en">Major depressive disorder</schema:alternateName>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000372"/>
+        <obo:IAO_0000115 xml:lang="en">Data safety is protect the data that relating to occupational safety and health for the use of various substances and products.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="en">数据安全</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T02:21:38Z</dc:date>
+        <rdfs:label xml:lang="en">data safety</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PICO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">A process of identification of individual identity directly by technologies, or processes that those can re-identify the person indirectly through combination or other ways,including  data obtained from multiple sources, or different media.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Data_re-identification</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="en">重新识别</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T02:29:30Z</dc:date>
+        <rdfs:label xml:lang="en">re-identification</rdfs:label>
+        <schema:alternateName xml:lang="en">de-anonymization</schema:alternateName>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000458"/>
+        <obo:IAO_0000115 xml:lang="en">The risk in data re-identification.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">重新识别风险</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T02:32:33Z</dc:date>
+        <rdfs:label xml:lang="en">re-identification risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C113644"/>
+        <obo:IAO_0000115 xml:lang="en">A kind of hypothetical &quot;person&quot; intended to re-identify the data risk determination. Assuming the person who knows of all the general technical knowledge of the related technical field, and is capable of knowing all the existing technology in the field, and has the ability to solve the general technical problems with conventional experimental means in the field.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="en">一般技术人员</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T02:41:36Z</dc:date>
+        <rdfs:label xml:lang="en">general technician</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000458"/>
+        <obo:IAO_0000115 xml:lang="en">A frameworks, processes, and systems by which organizations, institutions, and governments are directed, controlled, and held accountable, through which guiding the organizations and governments through the challenges of decision-making while ensuring fairness, transparency, and accountability.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">伦理治理</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T02:44:52Z</dc:date>
+        <rdfs:label xml:lang="en">ethics governance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PICO_0000043"/>
+        <obo:IAO_0000115 xml:lang="en">A part of management that deals with providing an ethical climate in organizations, both public and private, using specific tools such as ethical codes, ethical committees, ethical hotlines, whistleblowing procedures, ethical audit, and ethical trainings.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">伦理管理</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T02:52:33Z</dc:date>
+        <rdfs:label xml:lang="en">ethical management</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_003239"/>
+        <obo:IAO_0000115 xml:lang="en">Three fundamental ethical principles identified in the Belmont Report for all human subject research – respect for persons, beneficence, and justice, now is believed apply to all research and activities involving humans.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">基本伦理原则</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T03:10:50Z</dc:date>
+        <rdfs:label xml:lang="en">basic ethical principle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+        <obo:IAO_0000115 xml:lang="en">A part of a document about the governance body responsible for approving the work discussed in a document on an ethical basis.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">伦理要求</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T05:23:25Z</dc:date>
+        <rdfs:label xml:lang="en">ethical requirement</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/IAO_0000620</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_003081"/>
+        <obo:IAO_0000115 xml:lang="en">A practice of ehtical governance and management according to the research ethics. A data ethics review is the representative of practible ethics.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="en">实践伦理学</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T05:27:20Z</dc:date>
+        <rdfs:label xml:lang="en">practible ethics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PICO_0000043"/>
+        <obo:IAO_0000115 xml:lang="en">A systematic evaluation process aimed at ensuring that research involving human participants is conducted in a manner that respects their rights, dignity, and welfare. 
+This process often involves an ethics committee or institutional review board (IRB) that assesses the study&apos;s design, methodology, and potential risks to participants. Ethical reviews are crucial for maintaining the integrity of research and ensuring compliance with legal and ethical standards.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">伦理审查</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T05:33:24Z</dc:date>
+        <rdfs:label xml:lang="en">ethical review</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PICO_0000044"/>
+        <obo:IAO_0000115 xml:lang="en">A systematic evaluation process aimed at ensuring that research involving human participants is conducted in a manner that respects their rights, dignity, and welfare.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">数据伦理审查</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T05:35:46Z</dc:date>
+        <rdfs:label xml:lang="en">data ethics review</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">Research is creative and systematic work undertaken to increase the stock of knowledge. It involves the collection, organization, and analysis of evidence to increase understanding of a topic, characterized by a particular attentiveness to controlling sources of bias and error. These activities are characterized by accounting and controlling for biases. A research project may be an expansion of past work in the field. To test the validity of instruments, procedures, or experiments, research may replicate elements of prior projects or the project as a whole.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Research</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="zh-cn">研究</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T05:43:35Z</dc:date>
+        <rdfs:label xml:lang="en">research</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/GSSO_006620</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PICO_0000046"/>
+        <obo:IAO_0000115 xml:lang="en">Data driven research is a subset of the field of digital humanities that deals particularly with data analytic and visualization methodologies. This field broadly consists of theories and methodologies from a range of humanities disciplines that inform how a researcher gathers, analyzes, and filters datasets to gain insight about a particular subject.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?search=data-driven+research&amp;title=Special%3ASearch&amp;ns0=1</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="zh-cn">数据驱动研究</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T05:46:21Z</dc:date>
+        <rdfs:label xml:lang="en">data-driven research</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000352"/>
+        <obo:IAO_0000115 xml:lang="en">Algorithm-based data analysis activities.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">涉及算法的数据活动</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T05:50:33Z</dc:date>
+        <rdfs:label xml:lang="en">data activity involving algorithms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
+        <obo:IAO_0000115 xml:lang="en">Processing of personal information data.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">涉及个人信息的数据处理</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T05:57:41Z</dc:date>
+        <rdfs:label xml:lang="en">data processing involving personal information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PICO_0000041"/>
+        <obo:IAO_0000115 xml:lang="en">An ethical principle of guaranttee individual&apos;s rights and interests.  Which incorporates at least two ethical convictions: first, that individuals should be treated as autonomous agents, and second, that persons with diminished autonomy are entitled to protection. Which divides into two separate moral requirements: the requirement to acknowledge autonomy and the requirement to protect those with diminished autonomy.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Belmont Report</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="zh-cn">尊重原则</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T06:01:32Z</dc:date>
+        <rdfs:label xml:lang="en">respect for person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PICO_0000043"/>
+        <obo:IAO_0000115 xml:lang="en">The ethical obligations of GOVERNMENT with particular attention to related institutes and individuals of high risk research and activities, and their ethical research and ethical review competence, and assessment of ethical review decisions, ethical training, etc.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">伦理监管</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T06:04:54Z</dc:date>
+        <rdfs:label xml:lang="en">ethical supervision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_003294"/>
+        <obo:IAO_0000115 xml:lang="en">The principle that a person should have control over their personal data, including the ability to decide how organizations collect, store and use their data.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="en">数据隐私</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T06:18:17Z</dc:date>
+        <rdfs:label xml:lang="en">data privacy</rdfs:label>
+        <schema:alternateName xml:lang="en">information privacy</schema:alternateName>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PICO_0000052"/>
+        <obo:IAO_0000115 xml:lang="en">A legislative concept, and one of the ethical requirement of &apos;Beneficence&apos; ethical principle application in research practice and data activities involving humans for ethical acceptance.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">隐私保护</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T06:19:49Z</dc:date>
+        <rdfs:label xml:lang="en">privacy protection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_004917"/>
+        <obo:IAO_0000115 xml:lang="en">‌1. Oral notification: applicable to general drug treatment, routine clinical examination and other situations, as well as emergency or need timely change of the situation and emergency rescue measures. After the event, the medical staff shall keep faithful and detailed records as medical certification materials.
+‌2. Written notification form: this is the principle form, such as surgery notice, blood transfusion notice, etc. The patient is required to understand and agree and sign.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">传统知情同意模式</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T06:25:29Z</dc:date>
+        <rdfs:label xml:lang="en">traditional consent model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_004917"/>
+        <obo:PICO_0000004 xml:lang="zh-cn">泛知情同意，分层同意模式</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T06:30:35Z</dc:date>
+        <rdfs:label xml:lang="en">broad, tiered consent model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_004917"/>
+        <obo:PICO_0000004 xml:lang="zh-cn">泛知情同意，定期同意模式</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T06:32:05Z</dc:date>
+        <rdfs:label xml:lang="en">broad, periodic consent model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_004917"/>
+        <obo:PICO_0000004 xml:lang="zh-cn">泛知情同意，一次性同意模式</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T06:33:05Z</dc:date>
+        <rdfs:label xml:lang="en">broad, one time consent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_004917"/>
+        <obo:PICO_0000004 xml:lang="zh-cn">选择性退出</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T06:33:45Z</dc:date>
+        <rdfs:label xml:lang="en">opt-out consent model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCCO_00000004"/>
+        <obo:PICO_0000004 xml:lang="en">Active ablility is an ability to maintain mormal activity behavior.</obo:PICO_0000004>
+        <obo:PICO_0000004 xml:lang="zh-cn">行为能力</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T06:47:39Z</dc:date>
+        <rdfs:label xml:lang="en">active ability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17005"/>
+        <obo:IAO_0000115 xml:lang="en">1. Those who are vulnerable or discriminated against because of their age, sex, physical condition, economic status, social status, etc.
+2. Refers to the social, economic, cultural and other disadvantaged groups, such as the poor, disabled, ethnic minorities, etc.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">弱势群体</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T06:51:34Z</dc:date>
+        <rdfs:label xml:lang="en">vulnerable group</rdfs:label>
+        <schema:alternateName xml:lang="en">disadvantaged group</schema:alternateName>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25460"/>
+        <obo:PICO_0000004 xml:lang="zh-cn">诱导同意</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T06:59:57Z</dc:date>
+        <rdfs:label xml:lang="en">induced consent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25460"/>
+        <obo:PICO_0000004 xml:lang="zh-cn">强迫同意</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T07:00:52Z</dc:date>
+        <rdfs:label xml:lang="en">forced consent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PICO_0000042"/>
+        <obo:IAO_0000115 xml:lang="en">The assessment of risks and benefits based on a careful arrayal of relevant data, including, in some cases, alternative ways of obtaining the benefits sought in the research and data activities.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">风险和收益评估</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T07:03:31Z</dc:date>
+        <rdfs:label xml:lang="en">assessment of risks and benefits</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C75906"/>
+        <obo:IAO_0000115 xml:lang="en">A resolution of action to be taken in an emergency to protect people&apos;s lives and property.</obo:IAO_0000115>
+        <obo:PICO_0000004 xml:lang="zh-cn">应急方案</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T07:14:22Z</dc:date>
+        <rdfs:label xml:lang="en">emergency resolution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PICO_0000065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PICO_0000065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PICO_0000041"/>
+        <obo:IAO_0000115 xml:lang="en">Beneficence is a concept in research ethics that states that researchers should have the welfare of the research participant as a goal of any clinical trial or other research study. The antonym of this term, maleficence, describes a practice that opposes the welfare of any research participant. According to the Belmont Report, researchers are required to follow two moral requirements in line with the principle of beneficence: do not harm and maximize possible benefits for research while minimizing any potential harm on others.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Beneficence_(ethics)</obo:IAO_0000119>
+        <obo:PICO_0000004 xml:lang="en">有益原则</obo:PICO_0000004>
+        <dc:creator>Jian Guan (关健)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-23T07:25:18Z</dc:date>
+        <rdfs:label xml:lang="en">beneficence</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
