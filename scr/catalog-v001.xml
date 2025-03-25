@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/inu7nca0.owl" uri="ontofox%20file/ontofox_output%20file/TXPO.owl.xml"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/7g7qtkn6.owl" uri="ontofox%20file/ontofox_output%20file/T4SF-2.owl.xml"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/8a7cu3yb.owl" uri="ontofox%20file/ontofox_output%20file/T4SF-1.owl.xml"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/am79wdte.owl" uri="ontofox%20file/ontofox_output%20file/SWO.owl.xml"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/g3vvd0ig.owl" uri="ontofox%20file/ontofox_output%20file/SIO.owl.xml"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/yi396b8p.owl" uri="ontofox%20file/ontofox_output%20file/PROCO.owl.xml"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/v8gk2sc4.owl" uri="ontofox%20file/ontofox_output%20file/OPMI.owl.xml"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/eugv5ks0.owl" uri="ontofox%20file/ontofox_output%20file/ONS.owl.xml"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/cmvu7c29.owl" uri="ontofox%20file/ontofox_output%20file/OGMS.owl.xml"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/uui6g03d.owl" uri="ontofox%20file/ontofox_output%20file/OCCO.owl.xml"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/0wy78vpv.owl" uri="ontofox%20file/ontofox_output%20file/OBI.owl.xml"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/umsxs7rq.owl" uri="ontofox%20file/ontofox_output%20file/OBCS.owl.xml"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/f7tbuyjk.owl" uri="ontofox%20file/ontofox_output%20file/NCIT.owl.xml"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/zwt26vee.owl" uri="ontofox%20file/ontofox_output%20file/MONDO.owl.xml"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/es5uc9od.owl" uri="ontofox%20file/ontofox_output%20file/ICO.owl.xml"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/cf8tsnxe.owl" uri="ontofox%20file/ontofox_output%20file/IAO.owl.xml"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/d8i2imco.owl" uri="ontofox%20file/ontofox_output%20file/GSSO.owl.xml"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/gvbihsw8.owl" uri="ontofox%20file/ontofox_output%20file/DOID.owl.xml"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl" uri="ontofox%20file/ontofox_output%20file/bfo_classes_only.owl.txt"/>
     <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/inu7nca0.owl" uri="Ontofox%20input/ontofox_output_file/TXPO.owl.xml"/>
     <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/7g7qtkn6.owl" uri="Ontofox%20input/ontofox_output_file/T4SF-2.owl.xml"/>
     <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/8a7cu3yb.owl" uri="Ontofox%20input/ontofox_output_file/T4SF-1.owl.xml"/>
@@ -77,25 +96,25 @@
     <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/65d6cf6f.owl" uri="Ontofox%20input/ico.owl.xml"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl" uri="Ontofox%20input/bfo_classes_only.owl.txt"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1742867143089" name="http://ontofox.hegroup.org/0wy78vpv.owl" uri="Ontofox%20input/ontofox_output_file/OBI.owl.xml"/>
-        <uri id="Automatically generated entry, Timestamp=1742867143089" name="http://ontofox.hegroup.org/7g7qtkn6.owl" uri="Ontofox%20input/ontofox_output_file/T4SF-2.owl.xml"/>
-        <uri id="Automatically generated entry, Timestamp=1742867143089" name="http://ontofox.hegroup.org/8a7cu3yb.owl" uri="Ontofox%20input/ontofox_output_file/T4SF-1.owl.xml"/>
-        <uri id="Automatically generated entry, Timestamp=1742867143089" name="http://ontofox.hegroup.org/am79wdte.owl" uri="Ontofox%20input/ontofox_output_file/SWO.owl.xml"/>
-        <uri id="Automatically generated entry, Timestamp=1742867143089" name="http://ontofox.hegroup.org/cf8tsnxe.owl" uri="Ontofox%20input/ontofox_output_file/IAO.owl.xml"/>
-        <uri id="Automatically generated entry, Timestamp=1742867143089" name="http://ontofox.hegroup.org/cmvu7c29.owl" uri="Ontofox%20input/ontofox_output_file/OGMS.owl.xml"/>
-        <uri id="Automatically generated entry, Timestamp=1742867143089" name="http://ontofox.hegroup.org/d8i2imco.owl" uri="Ontofox%20input/ontofox_output_file/GSSO.owl.xml"/>
-        <uri id="Automatically generated entry, Timestamp=1742867143089" name="http://ontofox.hegroup.org/es5uc9od.owl" uri="Ontofox%20input/ontofox_output_file/ICO.owl.xml"/>
-        <uri id="Automatically generated entry, Timestamp=1742867143089" name="http://ontofox.hegroup.org/eugv5ks0.owl" uri="Ontofox%20input/ontofox_output_file/ONS.owl.xml"/>
-        <uri id="Automatically generated entry, Timestamp=1742867143089" name="http://ontofox.hegroup.org/f7tbuyjk.owl" uri="Ontofox%20input/ontofox_output_file/NCIT.owl.xml"/>
-        <uri id="Automatically generated entry, Timestamp=1742867143089" name="http://ontofox.hegroup.org/g3vvd0ig.owl" uri="Ontofox%20input/ontofox_output_file/SIO.owl.xml"/>
-        <uri id="Automatically generated entry, Timestamp=1742867143089" name="http://ontofox.hegroup.org/gvbihsw8.owl" uri="Ontofox%20input/ontofox_output_file/DOID.owl.xml"/>
-        <uri id="Automatically generated entry, Timestamp=1742867143089" name="http://ontofox.hegroup.org/inu7nca0.owl" uri="Ontofox%20input/ontofox_output_file/TXPO.owl.xml"/>
-        <uri id="Automatically generated entry, Timestamp=1742867143089" name="http://ontofox.hegroup.org/umsxs7rq.owl" uri="Ontofox%20input/ontofox_output_file/OBCS.owl.xml"/>
-        <uri id="Automatically generated entry, Timestamp=1742867143089" name="http://ontofox.hegroup.org/uui6g03d.owl" uri="Ontofox%20input/ontofox_output_file/OCCO.owl.xml"/>
-        <uri id="Automatically generated entry, Timestamp=1742867143089" name="http://ontofox.hegroup.org/v8gk2sc4.owl" uri="Ontofox%20input/ontofox_output_file/OPMI.owl.xml"/>
-        <uri id="Automatically generated entry, Timestamp=1742867143089" name="http://ontofox.hegroup.org/yi396b8p.owl" uri="Ontofox%20input/ontofox_output_file/PROCO.owl.xml"/>
-        <uri id="Automatically generated entry, Timestamp=1742867143089" name="http://ontofox.hegroup.org/zwt26vee.owl" uri="Ontofox%20input/ontofox_output_file/MONDO.owl.xml"/>
-        <uri id="Automatically generated entry, Timestamp=1742867143089" name="http://purl.obolibrary.org/obo/pico_merged.owl" uri="pico_merged.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1742867143089" name="http://www.semanticweb.org/administrator/ontologies/2025/2/untitled-ontology-51/" uri="PICO-1.0.0.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1742870560370" name="http://ontofox.hegroup.org/0wy78vpv.owl" uri="ontofox%20file/ontofox_output%20file/OBI.owl.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1742870560370" name="http://ontofox.hegroup.org/7g7qtkn6.owl" uri="ontofox%20file/ontofox_output%20file/T4SF-2.owl.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1742870560370" name="http://ontofox.hegroup.org/8a7cu3yb.owl" uri="ontofox%20file/ontofox_output%20file/T4SF-1.owl.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1742870560370" name="http://ontofox.hegroup.org/am79wdte.owl" uri="ontofox%20file/ontofox_output%20file/SWO.owl.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1742870560370" name="http://ontofox.hegroup.org/cf8tsnxe.owl" uri="ontofox%20file/ontofox_output%20file/IAO.owl.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1742870560370" name="http://ontofox.hegroup.org/cmvu7c29.owl" uri="ontofox%20file/ontofox_output%20file/OGMS.owl.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1742870560370" name="http://ontofox.hegroup.org/d8i2imco.owl" uri="ontofox%20file/ontofox_output%20file/GSSO.owl.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1742870560370" name="http://ontofox.hegroup.org/es5uc9od.owl" uri="ontofox%20file/ontofox_output%20file/ICO.owl.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1742870560370" name="http://ontofox.hegroup.org/eugv5ks0.owl" uri="ontofox%20file/ontofox_output%20file/ONS.owl.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1742870560370" name="http://ontofox.hegroup.org/f7tbuyjk.owl" uri="ontofox%20file/ontofox_output%20file/NCIT.owl.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1742870560370" name="http://ontofox.hegroup.org/g3vvd0ig.owl" uri="ontofox%20file/ontofox_output%20file/SIO.owl.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1742870560370" name="http://ontofox.hegroup.org/gvbihsw8.owl" uri="ontofox%20file/ontofox_output%20file/DOID.owl.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1742870560370" name="http://ontofox.hegroup.org/inu7nca0.owl" uri="ontofox%20file/ontofox_output%20file/TXPO.owl.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1742870560370" name="http://ontofox.hegroup.org/umsxs7rq.owl" uri="ontofox%20file/ontofox_output%20file/OBCS.owl.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1742870560370" name="http://ontofox.hegroup.org/uui6g03d.owl" uri="ontofox%20file/ontofox_output%20file/OCCO.owl.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1742870560370" name="http://ontofox.hegroup.org/v8gk2sc4.owl" uri="ontofox%20file/ontofox_output%20file/OPMI.owl.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1742870560370" name="http://ontofox.hegroup.org/yi396b8p.owl" uri="ontofox%20file/ontofox_output%20file/PROCO.owl.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1742870560370" name="http://ontofox.hegroup.org/zwt26vee.owl" uri="ontofox%20file/ontofox_output%20file/MONDO.owl.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1742870560370" name="http://purl.obolibrary.org/obo/pico_merged.owl" uri="pico_merged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1742870560370" name="http://www.semanticweb.org/administrator/ontologies/2025/2/untitled-ontology-51/" uri="PICO-1.0.0.rdf"/>
     </group>
 </catalog>
