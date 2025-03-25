@@ -1,0 +1,31 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/pico/DOID_import.owl.
+
+[Source ontology]
+DOID
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DOID_635 #acquired immunodeficiency syndrome
+http://purl.obolibrary.org/obo/DOID_4 #disease
+http://purl.obolibrary.org/obo/DOID_0050117 #disease by infectious agent
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/DOID_635 #acquired immunodeficiency syndrome
+subClassOf http://purl.obolibrary.org/obo/DOID_4 #disease
+
+http://purl.obolibrary.org/obo/DOID_4 #disease
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
+
+http://purl.obolibrary.org/obo/DOID_0050117  #disease by infectious agent
+subClassOf http://purl.obolibrary.org/obo/DOID_4 #disease
+
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]

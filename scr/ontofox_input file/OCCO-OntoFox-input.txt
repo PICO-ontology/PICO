@@ -1,0 +1,32 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/pico/OCCO_import.owl.
+
+[Source ontology]
+OCCO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OCCO_00000004 #ability
+http://purl.obolibrary.org/obo/OCCO_00000011 #capability
+http://purl.obolibrary.org/obo/OCCO_00000036 #negotiation
+http://purl.obolibrary.org/obo/OCCO_00000003 #skill
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OCCO_00000004 #ability
+subClassOf http://purl.obolibrary.org/obo/OCCO_00000011 #capability
+
+http://purl.obolibrary.org/obo/OCCO_00000011 #capability
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
+
+http://purl.obolibrary.org/obo/OCCO_00000036 #negotiation
+subClassOf http://purl.obolibrary.org/obo/OCCO_00000003 #skill
+
+http://purl.obolibrary.org/obo/OCCO_00000003 #skill
+subClassOf http://purl.obolibrary.org/obo/OCCO_00000011 #capability
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]

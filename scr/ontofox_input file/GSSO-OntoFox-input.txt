@@ -1,0 +1,105 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/pico/GSSO_import.owl.
+
+[Source ontology]
+GSSO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GSSO_011173 #data science
+http://purl.obolibrary.org/obo/GSSO_011174 #basic informatics
+http://purl.obolibrary.org/obo/GSSO_011171 #informatics
+http://purl.obolibrary.org/obo/GSSO_009049 # formal science
+http://purl.obolibrary.org/obo/GSSO_003850 #basic science
+http://purl.obolibrary.org/obo/GSSO_003848 #science
+http://purl.obolibrary.org/obo/GSSO_002345 #knowledge field
+http://purl.obolibrary.org/obo/GSSO_000492 #knowledge content entity
+http://purl.obolibrary.org/obo/GSSO_000526 #sexually transmitted disease
+http://purl.obolibrary.org/obo/GSSO_003081 #ethics
+http://purl.obolibrary.org/obo/GSSO_003088 #basic philosophy
+http://purl.obolibrary.org/obo/GSSO_002368 #basic humanities
+http://purl.obolibrary.org/obo/GSSO_002346 #humanities
+http://purl.obolibrary.org/obo/GSSO_004917 #informed consent
+http://purl.obolibrary.org/obo/GSSO_009671 #biological ethics
+http://purl.obolibrary.org/obo/GSSO_003756 #applied ethics
+http://purl.obolibrary.org/obo/GSSO_003238 #principle
+http://purl.obolibrary.org/obo/GSSO_003294 #privacy
+http://purl.obolibrary.org/obo/GSSO_009828 #information right
+http://purl.obolibrary.org/obo/GSSO_003292 #human right
+http://purl.obolibrary.org/obo/GSSO_003291 #right
+http://purl.obolibrary.org/obo/GSSO_003239 #ethical principle
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GSSO_011173 #data science
+subClassOf http://purl.obolibrary.org/obo/GSSO_011174 #basic informatics
+
+http://purl.obolibrary.org/obo/GSSO_011174 #basic informatics
+subClassOf http://purl.obolibrary.org/obo/GSSO_011171 #informatics
+
+http://purl.obolibrary.org/obo/GSSO_011171 #informatics
+subClassOf http://purl.obolibrary.org/obo/GSSO_009049 # formal science
+
+http://purl.obolibrary.org/obo/GSSO_009049 # formal science
+subClassOf http://purl.obolibrary.org/obo/GSSO_003850 #basic science
+
+http://purl.obolibrary.org/obo/GSSO_003850 #basic science
+subClassOf http://purl.obolibrary.org/obo/GSSO_003848 #science
+
+http://purl.obolibrary.org/obo/GSSO_003848 #science
+subClassOf http://purl.obolibrary.org/obo/GSSO_002345 #knowledge field
+
+http://purl.obolibrary.org/obo/GSSO_002345 #knowledge field
+subClassOf http://purl.obolibrary.org/obo/GSSO_000492 #knowledge content entity
+
+http://purl.obolibrary.org/obo/GSSO_000492 #knowledge content entity
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+
+http://purl.obolibrary.org/obo/GSSO_000526 #sexually transmitted disease
+subClassOf http://purl.obolibrary.org/obo/DOID_0050117 #disease by infectious agent
+
+http://purl.obolibrary.org/obo/GSSO_003081 #ethics
+subClassOf http://purl.obolibrary.org/obo/GSSO_003088 #basic philosophy
+
+http://purl.obolibrary.org/obo/GSSO_003088 #basic philosophy
+subClassOf http://purl.obolibrary.org/obo/GSSO_002368 #basic humanities
+
+http://purl.obolibrary.org/obo/GSSO_002368 #basic humanities
+subClassOf http://purl.obolibrary.org/obo/GSSO_002346 #humanities
+
+http://purl.obolibrary.org/obo/GSSO_002346 #humanities
+subClassOf http://purl.obolibrary.org/obo/GSSO_002345 #knowledge field
+
+http://purl.obolibrary.org/obo/GSSO_004917 #informed consent
+subClassOf http://purl.obolibrary.org/obo/NCIT_C25460 #consent
+
+http://purl.obolibrary.org/obo/GSSO_009671 #biological ethics
+subClassOf http://purl.obolibrary.org/obo/GSSO_003756 #applied ethics
+
+http://purl.obolibrary.org/obo/GSSO_003756 #applied ethics
+subClassOf http://purl.obolibrary.org/obo/GSSO_003081 #ethics
+
+http://purl.obolibrary.org/obo/GSSO_003238 #principle
+subClassOf http://semanticscience.org/resource/SIO_001183 #statement
+
+http://purl.obolibrary.org/obo/GSSO_003294 #privacy
+subClassOf http://purl.obolibrary.org/obo/GSSO_009828 #information right
+
+http://purl.obolibrary.org/obo/GSSO_009828 #information right
+subClassOf http://purl.obolibrary.org/obo/GSSO_003292 #human right
+
+http://purl.obolibrary.org/obo/GSSO_003292 #human right
+subClassOf http://purl.obolibrary.org/obo/GSSO_003291 #right
+
+http://purl.obolibrary.org/obo/GSSO_003291 #right
+subClassOf http://purl.obolibrary.org/obo/GSSO_003239 #ethical principle
+
+http://purl.obolibrary.org/obo/GSSO_003239 #ethical principle
+subClassOf http://purl.obolibrary.org/obo/GSSO_003238 #principle
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]

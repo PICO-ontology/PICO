@@ -1,0 +1,19 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/pico/ONS_import.owl.
+
+[Source ontology]
+ONS
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/ONS_0000091 #omics data
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/ONS_0000091 #omics data
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027 #data item
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+[Source annotation URIs to be excluded]

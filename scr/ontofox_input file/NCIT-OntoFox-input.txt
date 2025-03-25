@@ -1,0 +1,112 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/pico/NCIT_import.owl.
+
+[Source ontology]
+NCIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C25460 #consent
+http://purl.obolibrary.org/obo/NCIT_C19332 #personal attribute
+http://purl.obolibrary.org/obo/NCIT_C165830 #Real-world Data
+http://purl.obolibrary.org/obo/NCIT_C16309 #Artificial Intelligence
+http://purl.obolibrary.org/obo/NCIT_C113644 #Person Role Title
+http://purl.obolibrary.org/obo/NCIT_C19067 #Title
+http://purl.obolibrary.org/obo/NCIT_C20181 #Conceptual Entity
+http://purl.obolibrary.org/obo/NCIT_C49100 #Data Value
+http://purl.obolibrary.org/obo/NCIT_C25712 #Value
+http://purl.obolibrary.org/obo/NCIT_C45970 #Deidentification
+http://purl.obolibrary.org/obo/NCIT_C71754 #Anonymous
+http://purl.obolibrary.org/obo/NCIT_C41009 #Qualifier
+http://purl.obolibrary.org/obo/NCIT_C18465 #Research Ethics
+http://purl.obolibrary.org/obo/NCIT_C103270 #Consent Waiver
+http://purl.obolibrary.org/obo/NCIT_C41192 #Authorization
+http://purl.obolibrary.org/obo/NCIT_C25387 # Benefit
+http://purl.obolibrary.org/obo/NCIT_C16423 #Child
+http://purl.obolibrary.org/obo/NCIT_C20587 #Age Related Group
+http://purl.obolibrary.org/obo/NCIT_C17005 #Population Group
+http://purl.obolibrary.org/obo/NCIT_C43359 #Group
+http://purl.obolibrary.org/obo/NCIT_C21007 #disability
+http://purl.obolibrary.org/obo/NCIT_C16669 #health status
+http://purl.obolibrary.org/obo/NCIT_C25688 #status
+http://purl.obolibrary.org/obo/NCIT_C75906 #Resolution
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCIT_C25460 #consent
+subClassOf http://purl.obolibrary.org/obo/NCIT_C19332 #personal attribute
+
+http://purl.obolibrary.org/obo/NCIT_C19332 #personal attribute
+subClassOf http://purl.obolibrary.org/obo/TXPO_0000300 #attribute
+
+http://purl.obolibrary.org/obo/NCIT_C165830 #Real-world Data
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027 #data item
+
+http://purl.obolibrary.org/obo/NCIT_C16309 #Artificial Intelligence
+subClassOf http://purl.obolibrary.org/obo/IAO_0000064 #algorithm
+
+http://purl.obolibrary.org/obo/NCIT_C113644 #Person Role Title
+subClassOf http://purl.obolibrary.org/obo/NCIT_C19067 #Title
+
+http://purl.obolibrary.org/obo/NCIT_C19067 #Title
+subClassOf http://purl.obolibrary.org/obo/NCIT_C20181 #Conceptual Entity
+
+http://purl.obolibrary.org/obo/NCIT_C20181 #Conceptual Entity
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+
+http://purl.obolibrary.org/obo/NCIT_C49100 #Data Value
+subClassOf http://purl.obolibrary.org/obo/NCIT_C25712 #Value
+
+http://purl.obolibrary.org/obo/NCIT_C25712 #Value
+subClassOf http://purl.obolibrary.org/obo/TXPO_0000300 #attribute
+
+http://purl.obolibrary.org/obo/NCIT_C45970 #Deidentification
+subClassOf http://purl.obolibrary.org/obo/OBI_0200000 #data transformation
+
+http://purl.obolibrary.org/obo/NCIT_C71754 #Anonymous
+subClassOf http://purl.obolibrary.org/obo/NCIT_C41009 #Qualifier
+
+http://purl.obolibrary.org/obo/NCIT_C41009 #Qualifier
+subClassOf http://purl.obolibrary.org/obo/TXPO_0000300 #attribute
+
+http://purl.obolibrary.org/obo/NCIT_C18465 #Research Ethics
+subClassOf http://purl.obolibrary.org/obo/GSSO_003081 #ethics
+
+http://purl.obolibrary.org/obo/NCIT_C103270 #Consent Waiver
+subClassOf http://purl.obolibrary.org/obo/NCIT_C41192 #Authorization
+
+http://purl.obolibrary.org/obo/NCIT_C41192 #Authorization
+subClassOf http://purl.obolibrary.org/obo/IAO_0000310 #document
+
+http://purl.obolibrary.org/obo/NCIT_C25387 # Benefit
+subClassOf http://purl.obolibrary.org/obo/NCIT_C20181 #Conceptual Entity
+
+http://purl.obolibrary.org/obo/NCIT_C16423 #Child
+subClassOf http://purl.obolibrary.org/obo/NCIT_C20587 #Age Related Group
+
+http://purl.obolibrary.org/obo/NCIT_C20587 #Age Related Group
+subClassOf http://purl.obolibrary.org/obo/NCIT_C17005 #Population Group
+
+http://purl.obolibrary.org/obo/NCIT_C17005 #Population Group
+subClassOf http://purl.obolibrary.org/obo/NCIT_C43359 #Group
+
+http://purl.obolibrary.org/obo/NCIT_C43359 #Group
+subClassOf http://purl.obolibrary.org/obo/NCIT_C20181 #Conceptual Entity
+
+http://purl.obolibrary.org/obo/NCIT_C21007 #disability
+subClassOf http://purl.obolibrary.org/obo/NCIT_C16669 #health status
+
+http://purl.obolibrary.org/obo/NCIT_C16669 #health status
+subClassOf http://purl.obolibrary.org/obo/NCIT_C25688 #status
+
+http://purl.obolibrary.org/obo/NCIT_C25688 #status
+subClassOf http://purl.obolibrary.org/obo/TXPO_0000300 #attribute
+
+http://purl.obolibrary.org/obo/NCIT_C75906 #Resolution
+subClassOf http://purl.obolibrary.org/obo/NCIT_C20181 #Conceptual Entity
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]

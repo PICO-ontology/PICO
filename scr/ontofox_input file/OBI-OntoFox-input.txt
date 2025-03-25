@@ -1,0 +1,32 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/pico/OBI_import.owl.
+
+[Source ontology]
+OBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBI_0000066 #investigation
+http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+http://purl.obolibrary.org/obo/OBI_0200000 #data transformation
+http://purl.obolibrary.org/obo/OBI_1110040 #infectious disease
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OBI_0000066 #investigation
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+
+http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
+
+http://purl.obolibrary.org/obo/OBI_0200000 #data transformation
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+
+http://purl.obolibrary.org/obo/OBI_1110040 #infectious disease
+subClassOf http://purl.obolibrary.org/obo/DOID_4 #disease
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]

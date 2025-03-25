@@ -1,0 +1,62 @@
+[Source ontology]
+IAO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/IAO_0000078 #curation status specification
+http://purl.obolibrary.org/obo/IAO_0000102 #data about an ontology part
+http://purl.obolibrary.org/obo/IAO_0000027 #data item
+http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/IAO_0000027 #data item
+http://purl.obolibrary.org/obo/IAO_0000064 #algorithm
+http://purl.obolibrary.org/obo/IAO_0000104 #plan specification
+http://purl.obolibrary.org/obo/IAO_0000033 #directive information entity
+http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/IAO_0000310 #document
+http://purl.obolibrary.org/obo/IAO_0000055 #rule
+http://purl.obolibrary.org/obo/IAO_0000001 #conditional specification
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/IAO_0000078 #curation status specification
+subClassOf http://purl.obolibrary.org/obo/IAO_0000102 #data about an ontology part
+
+http://purl.obolibrary.org/obo/IAO_0000102 #data about an ontology part
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027 #data item
+
+http://purl.obolibrary.org/obo/IAO_0000027 #data item
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+
+http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000031 #generically dependent continuant
+
+http://purl.obolibrary.org/obo/IAO_0000027 #data item
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+
+http://purl.obolibrary.org/obo/IAO_0000064 #algorithm
+subClassOf http://purl.obolibrary.org/obo/IAO_0000104 #plan specification
+
+http://purl.obolibrary.org/obo/IAO_0000104 #plan specification
+subClassOf http://purl.obolibrary.org/obo/IAO_0000033 #directive information entity
+
+http://purl.obolibrary.org/obo/IAO_0000033 #directive information entity
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+
+http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000031 #generically dependent continuant
+
+http://purl.obolibrary.org/obo/IAO_0000310 #document
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+
+http://purl.obolibrary.org/obo/IAO_0000055 #rule
+subClassOf http://purl.obolibrary.org/obo/IAO_0000001 #conditional specification
+
+http://purl.obolibrary.org/obo/IAO_0000001 #conditional specification
+subClassOf http://purl.obolibrary.org/obo/IAO_0000033 #directive information entity
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]

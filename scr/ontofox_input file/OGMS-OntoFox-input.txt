@@ -1,0 +1,29 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/pico/OGMS_import.owl.
+[Source ontology]
+OGMS
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OGMS_0000064 #chronic disease course
+http://purl.obolibrary.org/obo/OGMS_0000063 #disease course
+http://purl.obolibrary.org/obo/OGMS_0000123 #clinical data item
+
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OGMS_0000064 #chronic disease course
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000063 #disease course
+
+http://purl.obolibrary.org/obo/OGMS_0000063 #disease course
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
+
+http://purl.obolibrary.org/obo/OGMS_0000123 #clinical data item
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027 #data item
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]

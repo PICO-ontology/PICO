@@ -1,0 +1,57 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/pico/MONDO_import.owl.
+
+[Source ontology]
+MONDO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/MONDO_0002025 #psychiatric disorder
+http://purl.obolibrary.org/obo/MONDO_0700096 #human disease
+http://purl.obolibrary.org/obo/MONDO_0005090 #schizophrenia
+http://purl.obolibrary.org/obo/MONDO_0005485 #psychotic disorder
+http://purl.obolibrary.org/obo/MONDO_0005084 #mental disorder
+http://purl.obolibrary.org/obo/MONDO_0005560 #brain disorder
+http://purl.obolibrary.org/obo/MONDO_0002602 #central nervous system disorder
+http://purl.obolibrary.org/obo/MONDO_0005071 #nervous system disorder
+http://purl.obolibrary.org/obo/MONDO_0002050 #depressive disorder
+http://purl.obolibrary.org/obo/MONDO_0005371 #mood disorder
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/MONDO_0002025 #psychiatric disorder
+subClassOf http://purl.obolibrary.org/obo/MONDO_0700096 #human disease
+
+http://purl.obolibrary.org/obo/MONDO_0700096 #human disease
+subClassOf http://purl.obolibrary.org/obo/DOID_4 #disease
+
+http://purl.obolibrary.org/obo/MONDO_0005090 #schizophrenia
+subClassOf http://purl.obolibrary.org/obo/MONDO_0005485 #psychotic disorder
+
+http://purl.obolibrary.org/obo/MONDO_0005485 #psychotic disorder
+subClassOf http://purl.obolibrary.org/obo/MONDO_0005084 #mental disorder
+
+http://purl.obolibrary.org/obo/MONDO_0005084 #mental disorder
+subClassOf http://purl.obolibrary.org/obo/MONDO_0005560 #brain disorder
+
+http://purl.obolibrary.org/obo/MONDO_0005560 #brain disorder
+subClassOf http://purl.obolibrary.org/obo/MONDO_0002602 #central nervous system disorder
+
+http://purl.obolibrary.org/obo/MONDO_0002602 #central nervous system disorder
+subClassOf http://purl.obolibrary.org/obo/MONDO_0005071 #nervous system disorder
+
+http://purl.obolibrary.org/obo/MONDO_0005071 #nervous system disorder
+subClassOf  http://purl.obolibrary.org/obo/MONDO_0700096 #human disease
+
+http://purl.obolibrary.org/obo/MONDO_0002050 #depressive disorder
+subClassOf http://purl.obolibrary.org/obo/MONDO_0005371 #mood disorder
+
+http://purl.obolibrary.org/obo/MONDO_0005371 #mood disorder
+subClassOf http://purl.obolibrary.org/obo/MONDO_0005084 #mental disorder
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]

@@ -1,0 +1,54 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/pico/T4SF_import.owl.
+
+[Source ontology]
+T4SF
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/T4FS_0000012 #data stewardship activity
+http://purl.obolibrary.org/obo/T4FS_0000021 #exposing data
+http://purl.obolibrary.org/obo/T4FS_0000036 #curation
+http://purl.obolibrary.org/obo/T4FS_0000072 #dataset series
+http://purl.obolibrary.org/obo/T4FS_0000127 #personal information privacy
+http://purl.obolibrary.org/obo/T4FS_0000215 #data store
+http://purl.obolibrary.org/obo/T4FS_0000352 #data analysis
+http://purl.obolibrary.org/obo/T4FS_0000372 #data stewardship technical concept
+http://purl.obolibrary.org/obo/T4FS_0000430 #data
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/T4FS_0000012 #data stewardship activity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
+
+http://purl.obolibrary.org/obo/T4FS_0000021 #exposing data
+subClassOf http://purl.obolibrary.org/obo/T4FS_0000012 #data stewardship activity
+
+http://purl.obolibrary.org/obo/T4FS_0000036 #curation
+subClassOf http://purl.obolibrary.org/obo/T4FS_0000012 #data stewardship activity
+
+http://purl.obolibrary.org/obo/T4FS_0000072 #dataset series
+subClassOf  http://purl.obolibrary.org/obo/T4FS_0000397 #database
+
+http://purl.obolibrary.org/obo/T4FS_0000127 #personal information privacy
+subClassOf http://purl.obolibrary.org/obo/T4FS_0000372 #data stewardship technical concept
+
+http://purl.obolibrary.org/obo/T4FS_0000215 #data store
+subClassOf http://purl.obolibrary.org/obo/T4FS_0000372 #data stewardship technical concept
+
+http://purl.obolibrary.org/obo/T4FS_0000352 #data analysis
+subClassOf http://purl.obolibrary.org/obo/T4FS_0000012 #data stewardship activity
+
+http://purl.obolibrary.org/obo/T4FS_0000372 #data stewardship technical concept
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+
+http://purl.obolibrary.org/obo/T4FS_0000430 #data
+subClassOf http://purl.obolibrary.org/obo/T4FS_0000372 #data stewardship technical concept
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]

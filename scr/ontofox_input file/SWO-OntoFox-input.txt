@@ -1,0 +1,21 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/pico/SWO_import.owl.
+
+[Source ontology]
+SWO
+
+[Low level source term URIs]
+http://www.ebi.ac.uk/swo/SWO_0000143 #data storage
+
+[Top level source term URIs and target direct superclass URIs]
+http://www.ebi.ac.uk/swo/SWO_0000143
+subClassOf http://purl.obolibrary.org/obo/OBI_0200000 #data transformation
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]

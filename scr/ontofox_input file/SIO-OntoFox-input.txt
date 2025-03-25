@@ -1,0 +1,56 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/pico/SIO_import.owl.
+
+[Source ontology]
+SIO
+
+[Low level source term URIs]
+http://semanticscience.org/resource/SIO_000472 #scientific data
+http://semanticscience.org/resource/SIO_010298 #medical data
+http://semanticscience.org/resource/SIO_010019 #biological data
+http://semanticscience.org/resource/SIO_000999 #procedure
+http://semanticscience.org/resource/SIO_001330 #Metadata
+http://semanticscience.org/resource/SIO_000088 #record
+http://semanticscience.org/resource/SIO_001183 #statement
+http://semanticscience.org/resource/SIO_000256 #proposition
+http://semanticscience.org/resource/SIO_000136 #description
+http://semanticscience.org/resource/SIO_000078 #language entity
+
+[Top level source term URIs and target direct superclass URIs]
+http://semanticscience.org/resource/SIO_000472 #scientific data
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027 #data item
+
+http://semanticscience.org/resource/SIO_010298 #medical data
+subClassOf http://semanticscience.org/resource/SIO_010019 #biological data
+
+http://semanticscience.org/resource/SIO_010019 #biological data
+subClassOf http://semanticscience.org/resource/SIO_000472 #scientific data
+
+http://semanticscience.org/resource/SIO_000999 #procedure
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
+
+http://semanticscience.org/resource/SIO_001330 #Metadata
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027 #data item
+
+http://semanticscience.org/resource/SIO_000088 #record
+subClassOf http://purl.obolibrary.org/obo/IAO_0000310 #document
+
+http://semanticscience.org/resource/SIO_001183 #statement
+subClassOf http://semanticscience.org/resource/SIO_000256 #proposition
+
+http://semanticscience.org/resource/SIO_000256 #proposition
+subClassOf http://semanticscience.org/resource/SIO_000136 #description
+
+http://semanticscience.org/resource/SIO_000136 #description
+subClassOf http://semanticscience.org/resource/SIO_000078 #language entity
+
+http://semanticscience.org/resource/SIO_000078 #language entity
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]

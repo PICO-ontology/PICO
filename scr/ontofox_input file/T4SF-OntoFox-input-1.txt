@@ -1,0 +1,77 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/pico/T4SF_import.owl.
+
+[Source ontology]
+T4SF
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/T4FS_0000025 #data entity
+http://purl.obolibrary.org/obo/T4FS_0000251 #big data
+http://purl.obolibrary.org/obo/T4FS_0000518 #research data
+http://purl.obolibrary.org/obo/T4FS_0000347 #dataset
+http://purl.obolibrary.org/obo/T4FS_0000397 #databse
+http://purl.obolibrary.org/obo/T4FS_0000032 #relational database
+http://purl.obolibrary.org/obo/T4FS_0000222 #personally identifiable information
+http://purl.obolibrary.org/obo/T4FS_0000213 #data lifecycle
+http://purl.obolibrary.org/obo/T4FS_0000482 #data sharing
+http://purl.obolibrary.org/obo/T4FS_0000533 #data mining
+http://purl.obolibrary.org/obo/T4FS_0000487 #data integration
+http://purl.obolibrary.org/obo/T4FS_0000472 #governance
+http://purl.obolibrary.org/obo/T4FS_0000458 #data governance
+http://purl.obolibrary.org/obo/T4FS_0000141 #data management
+http://purl.obolibrary.org/obo/T4FS_0000353 #resource management
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/T4FS_0000025 #data entity
+subClassOf http://purl.obolibrary.org/obo/T4FS_0000372 #data stewardship technical concept
+
+http://purl.obolibrary.org/obo/T4FS_0000251 #big data
+subClassOf http://purl.obolibrary.org/obo/T4FS_0000430 #data
+
+http://purl.obolibrary.org/obo/T4FS_0000518 #research data
+subClassOf http://purl.obolibrary.org/obo/T4FS_0000430 #data
+
+http://purl.obolibrary.org/obo/T4FS_0000347 #dataset
+subClassOf http://purl.obolibrary.org/obo/T4FS_0000072 #dataset series
+
+http://purl.obolibrary.org/obo/T4FS_0000397 #databse
+subClassOf http://purl.obolibrary.org/obo/T4FS_0000215 #data store
+
+http://purl.obolibrary.org/obo/T4FS_0000032 #relational database
+subClassOf http://purl.obolibrary.org/obo/T4FS_0000372 #data stewardship technical concept
+
+http://purl.obolibrary.org/obo/T4FS_0000222 #personally identifiable information
+subClassOf http://purl.obolibrary.org/obo/T4FS_0000127 #personal information privacy
+
+http://purl.obolibrary.org/obo/T4FS_0000213 #data lifecycle
+subClassOf http://purl.obolibrary.org/obo/T4FS_0000372 #data stewardship technical concept
+
+http://purl.obolibrary.org/obo/T4FS_0000482 #data sharing
+subClassOf http://purl.obolibrary.org/obo/T4FS_0000021 #exposing data
+
+http://purl.obolibrary.org/obo/T4FS_0000533 #data mining
+subClassOf http://purl.obolibrary.org/obo/T4FS_0000352 #data analysis
+
+http://purl.obolibrary.org/obo/T4FS_0000487 #data integration
+subClassOf http://purl.obolibrary.org/obo/T4FS_0000036 #curation 
+
+http://purl.obolibrary.org/obo/T4FS_0000472 #governance
+subClassOf http://purl.obolibrary.org/obo/T4FS_0000012 #data stewardship activity
+
+http://purl.obolibrary.org/obo/T4FS_0000458 #data governance
+subClassOf http://purl.obolibrary.org/obo/T4FS_0000472 #governance
+
+http://purl.obolibrary.org/obo/T4FS_0000141 #data management
+subClassOf http://purl.obolibrary.org/obo/T4FS_0000353 #resource management
+
+http://purl.obolibrary.org/obo/T4FS_0000353 #resource management
+subClassOf http://purl.obolibrary.org/obo/T4FS_0000012 #data stewardship activity
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]
