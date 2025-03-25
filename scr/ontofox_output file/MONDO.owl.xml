@@ -1,0 +1,633 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/zwt26vee.owl#"
+     xml:base="http://ontofox.hegroup.org/zwt26vee.owl"
+     xmlns:mondo="http://purl.obolibrary.org/obo/mondo#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/zwt26vee.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/conformsTo"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#excluded_subClassOf">
+        <rdfs:label>excluded subClassOf</rdfs:label>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:id>excluded_subClassOf</oboInOwl:id>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000589">
+        <rdfs:label xml:lang="en">OBO foundry unique label</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which is unique across the OBO Foundry.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBO Foundry &lt;http://obofoundry.org/&gt;</obo:IAO_0000119>
+        <obo:IAO_0000111 xml:lang="en">OBO foundry unique label</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000116 xml:lang="en">The intended usage of that property is as follow: OBO foundry unique labels are automatically generated based on regular expressions provided by each ontology, so that SO could specify unique label = &#39;sequence &#39; + [label], etc. , MA could specify &#39;mouse + [label]&#39; etc. Upon importing terms, ontology developers can choose to use the &#39;OBO foundry unique label&#39; for an imported term or not. The same applies to tools .</obo:IAO_0000116>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label>has_narrow_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label xml:lang="en">term editor</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See https://github.com/information-artifact-ontology/IAO/issues/115.</obo:IAO_0000116>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">term editor</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obofoundry.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">2012-04-05: 
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: &#39;Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions&#39;  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can&#39;t be evaluated by those criteria. 
+
+On the specifics of the proposed definition:
+
+We don&#39;t have definitions of &#39;meaning&#39; or &#39;expression&#39; or &#39;property&#39;. For &#39;reference&#39; in the intended sense I think we use the term &#39;denotation&#39;. For &#39;expression&#39;, I think we you mean symbol, or identifier. For &#39;meaning&#39; it differs for class and property. For class we want documentation that let&#39;s the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let&#39;s the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The &#39;intended reader&#39; part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </obo:IAO_0000116>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233">
+        <rdfs:label xml:lang="en">term tracker item</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An IRI or similar locator for a request or discussion of an ontology term.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">The &#39;tracker item&#39; can associate a tracker with a specific ontology term.</rdfs:comment>
+        <obo:IAO_0000111 xml:lang="en">term tracker item</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+        <rdfs:label xml:lang="en">example of usage</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">example of usage</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label>has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002175">
+        <rdfs:label xml:lang="en">present in taxon</rdfs:label>
+        <obo:IAO_0000115>S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002162 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002162">
+        <rdfs:label>in taxon</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004021 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004021">
+        <rdfs:label>disease has basis in disruption of</rdfs:label>
+        <rdfs:label>disease caused by disruption of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004024 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004024">
+        <rdfs:label>disease disrupts</rdfs:label>
+        <rdfs:label>disease causes disruption of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004026 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004026">
+        <rdfs:label>disease has location</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0002025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002025">
+        <rdfs:label>psychiatric disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+        <oboInOwl:hasExactSynonym>Psychiatric disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>DOID:150</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D001523</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MFOMD:0000004</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>disease of mental health</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>mental disorder</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasDbXref>NCIT:C2893</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>mental dysfunction</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>mental illness</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym>Psychiatric disorder</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A disorder characterized by behavioral and/or psychological abnormalities, often accompanied by physical symptoms. The symptoms may cause clinically significant distress or impairment in social and occupational areas of functioning. Representative examples include anxiety disorders, cognitive disorders, mood disorders and schizophrenia.</obo:IAO_0000115>
+        <oboInOwl:id>MONDO:0002025</oboInOwl:id>
+        <oboInOwl:hasDbXref>SCTID:74732009</oboInOwl:hasDbXref>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D001523"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#harrisons_view"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#otar"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#rare_grouping"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_150"/>
+        <mondo:excluded_subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005071"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2893"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/specific_disease_by_disrupted_process.yaml"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0002050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002050">
+        <rdfs:label>depressive disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005371"/>
+        <oboInOwl:hasDbXref>MFOMD:0000013</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:F32</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:35489007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:311</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>melancholias</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>syndrome, depressive</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>MEDGEN:4229</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>depression</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>DOID:1596</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C2982</oboInOwl:hasDbXref>
+        <oboInOwl:id>MONDO:0002050</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym>melancholia</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>MESH:D003866</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>mental depression</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A melancholy feeling of sadness and despair.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UMLS:C0011581</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>syndromes, depressive</oboInOwl:hasRelatedSynonym>
+        <skos:exactMatch rdf:resource="http://identifiers.org/medgen/4229"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D003866"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/35489007"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0011581"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/F32"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#otar"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_1596"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2982"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0002602 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002602">
+        <rdfs:label>central nervous system disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005071"/>
+        <oboInOwl:hasDbXref>UMLS:C4021765</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C2934</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>CNS disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>MESH:D002493</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOID:331</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>disorder of central nervous system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease of central nervous system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease of the central nervous system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>SCTID:23853001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0009386</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>central nervous system disease or disorder</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A disease involving the central nervous system.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>disease or disorder of central nervous system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>central nervous disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>central nervous system disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>central nervous system disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>MEDGEN:892343</oboInOwl:hasDbXref>
+        <oboInOwl:id>MONDO:0002602</oboInOwl:id>
+        <skos:exactMatch rdf:resource="http://identifiers.org/medgen/892343"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D002493"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/23853001"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C4021765"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#otar"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#rare_grouping"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_331"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2934"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location_top.yaml"/>
+        <skos:exactMatch rdf:resource="http://www.ebi.ac.uk/efo/EFO_0009386"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005071">
+        <rdfs:label>nervous system disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+        <oboInOwl:hasExactSynonym>disorder of nervous system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>neurological disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>ICD9:349.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:349.89</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOID:863</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>neurologic disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>EFO:0000618</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0027765</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:118940003</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>neurologic disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease of nervous system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>nervous system disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>Wikipedia:Nervous_system_disease</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>neurological disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder of nervous system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>NCIT:C26835</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:G00-G99</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>nervous system disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0005071</oboInOwl:id>
+        <rdfs:comment>&#39;psychiatric disorder&#39; is not classified as a &#39;nervous system disorder&#39; in Mondo (though it is often as such): the hallmarks of psychiatric disorders are based in behavior and emotional state, and the relation with nervous system malfunction or damage is not always clearly determined.</rdfs:comment>
+        <oboInOwl:hasDbXref>MEDGEN:14336</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D009422</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A non-neoplastic or neoplastic disorder that affects the brain, spinal cord, or peripheral nerves.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>nervous system disease</oboInOwl:hasExactSynonym>
+        <skos:exactMatch rdf:resource="http://identifiers.org/medgen/14336"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D009422"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/118940003"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0027765"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/G00-G99"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#harrisons_view"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#otar"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#rare_grouping"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_863"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26835"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
+        <skos:exactMatch rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000618"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005084">
+        <rdfs:label>mental disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005560"/>
+        <oboInOwl:hasDbXref>ICD9:V11.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D001523</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0004936</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A disease that has its basis in the disruption of mental process.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>mental process disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>SCTID:74732009</oboInOwl:hasDbXref>
+        <oboInOwl:id>MONDO:0005084</oboInOwl:id>
+        <oboInOwl:hasExactSynonym>mental or behavioral disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>ICD9:298.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>mental or behavioural disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>ICD9:290-299.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MEDGEN:14047</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>disorder of mental process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>NCIT:C2893</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0000677</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NIFSTD:birnlex_12669</oboInOwl:hasDbXref>
+        <skos:exactMatch rdf:resource="http://identifiers.org/medgen/14047"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/74732009"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0004936"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#otar"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/basis_in_disruption_of_process.yaml"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/disrupts_process.yaml"/>
+        <skos:exactMatch rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000677"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005090">
+        <rdfs:label>schizophrenia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005485"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/mondo/issues/4521</obo:IAO_0000233>
+        <oboInOwl:hasExactSynonym>schizophrenia (disease)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>SCTID:58214004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:295.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MEDGEN:48574</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:295.85</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:295.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>schizoaffective disorder</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>ICD9:295.90</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>schizophrenia-1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>icd11.foundation:1683919430</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOID:5419</oboInOwl:hasDbXref>
+        <oboInOwl:id>MONDO:0005090</oboInOwl:id>
+        <oboInOwl:hasDbXref>NIFSTD:birnlex_2104</oboInOwl:hasDbXref>
+        <oboInOwl:hasBroadSynonym>schizophrenia 12</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>NCIT:C3362</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>schizophrenia with or without an affective disorder</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>UMLS:C0036341</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>schizophrenia, susceptibility to</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>HP:0100753</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Orphanet:3140</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>SCZD</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>OMIM:181500</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A major psychotic disorder characterized by abnormalities in the perception or expression of reality. It affects the cognitive and psychomotor functions. Common clinical signs and symptoms include delusions, hallucinations, disorganized thinking, and retreat from reality.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD9:295.80</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:295</oboInOwl:hasDbXref>
+        <obo:IAO_0000589>schizophrenia (disease)</obo:IAO_0000589>
+        <oboInOwl:hasExactSynonym>schizophrenia</oboInOwl:hasExactSynonym>
+        <skos:exactMatch rdf:resource="http://identifiers.org/medgen/48574"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/58214004"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0036341"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#otar"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_5419"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3362"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/mondo/sources/icd11foundation/1683919430"/>
+        <skos:exactMatch rdf:resource="https://omim.org/entry/181500"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005371">
+        <rdfs:label>mood disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005084"/>
+        <oboInOwl:id>MONDO:0005371</oboInOwl:id>
+        <oboInOwl:hasDbXref>MESH:D019964</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOID:3324</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:296.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:F30-F39</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0004247</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:46206005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C92200</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A cognitive disorder a disturbance in which the person&#39;s mood is hypothesized to be the main underlying feature.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UMLS:C0525045</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MEDGEN:99866</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>episodic mood disorder</oboInOwl:hasNarrowSynonym>
+        <skos:exactMatch rdf:resource="http://identifiers.org/medgen/99866"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D019964"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/46206005"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0525045"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/F30-F39"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#otar"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_3324"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92200"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <skos:exactMatch rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004247"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005485 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005485">
+        <rdfs:label>psychotic disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005084"/>
+        <oboInOwl:hasExactSynonym>psychosis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>MEDGEN:19568</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:69322001</oboInOwl:hasDbXref>
+        <oboInOwl:id>MONDO:0005485</oboInOwl:id>
+        <oboInOwl:hasDbXref>ICD9:298.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:298.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0005407</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HP:0000709</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOID:2468</oboInOwl:hasDbXref>
+        <oboInOwl:hasBroadSynonym>mental or behavioral disorder</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>UMLS:C0033975</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>An abnormal condition of the mind that involves a loss of contact with reality. People experiencing psychosis may exhibit personality changes and thought disorder. Depending on its severity, this may be accompanied by unusual or bizarre behavior, as well as difficulty with social interaction and impairment in carrying out daily life activities.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C78576</oboInOwl:hasDbXref>
+        <oboInOwl:hasBroadSynonym>mental or behavioural disorder</oboInOwl:hasBroadSynonym>
+        <skos:exactMatch rdf:resource="http://identifiers.org/medgen/19568"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/69322001"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0033975"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#otar"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_2468"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C78576"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <skos:exactMatch rdf:resource="http://www.ebi.ac.uk/efo/EFO_0005407"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005560 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005560">
+        <rdfs:label>brain disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002602"/>
+        <oboInOwl:hasDbXref>SCTID:81308009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:348.3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C96413</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:348.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:348.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>brain disease or disorder</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A disease affecting the brain or part of the brain.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D001927</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>disorder of brain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>DOID:936</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0006111</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MEDGEN:14214</oboInOwl:hasDbXref>
+        <oboInOwl:id>MONDO:0005560</oboInOwl:id>
+        <rdfs:comment>Editor note: NCIT has different classes for brain disease and encephalopathy</rdfs:comment>
+        <oboInOwl:hasExactSynonym>brain disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder of brain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease of brain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>encephalopathy</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasDbXref>ICD9:348.30</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0005774</oboInOwl:hasDbXref>
+        <skos:exactMatch rdf:resource="http://identifiers.org/medgen/14214"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D001927"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/81308009"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0006111"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#otar"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_936"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C96413"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location_top.yaml"/>
+        <skos:exactMatch rdf:resource="http://www.ebi.ac.uk/efo/EFO_0005774"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0700096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0700096">
+        <rdfs:label>human disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/mondo/issues/5858</obo:IAO_0000233>
+        <oboInOwl:id>MONDO:0700096</oboInOwl:id>
+        <oboInOwl:hasExactSynonym>human disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#rare_grouping"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000122 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000122">
+        <rdfs:label xml:lang="en">ready for release</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000125 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000125">
+        <rdfs:label xml:lang="en">pending final vetting</rdfs:label>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

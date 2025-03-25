@@ -1,0 +1,664 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/d8i2imco.owl#"
+     xml:base="http://ontofox.hegroup.org/d8i2imco.owl"
+     xmlns:schema="https://schema.org/"
+     xmlns:owlready_ontology="http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:resource="http://semanticscience.org/resource/"
+     xmlns:wiki="https://www.wikidata.org/wiki/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:aids-101="https://web.archive.org/web/20190102184708/https://www.theaidsinstitute.org/education/aids-101/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:id="https://books.google.com/books/?id="
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:Property="https://www.wikidata.org/wiki/Property:"
+     xmlns:sacred="http://web.archive.org/web/20200721053627/https://sacred.omeka.net/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/d8i2imco.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P828">
+        <rdfs:label xml:lang="en">has cause</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">has_cause</owlready_ontology:python_name>
+        <rdfs:subPropertyOf rdf:resource="https://www.wikidata.org/wiki/Property:P155"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P1813">
+        <rdfs:label xml:lang="en">short name</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">short_name</owlready_ontology:python_name>
+        <rdfs:subPropertyOf rdf:resource="https://www.wikidata.org/wiki/Property:P2561"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P1036">
+        <rdfs:label xml:lang="en">Dewey Decimal Classification</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">dewey_decimal_classification</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+        <rdfs:label xml:lang="en">see also</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">see_also_rdf_schema</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label xml:lang="en">has related synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isReferencedBy">
+        <rdfs:label xml:lang="en">is referenced by</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+        <rdfs:label xml:lang="en">comment</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P3095">
+        <rdfs:label xml:lang="en">practiced by</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">practiced_by</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P5191">
+        <rdfs:label xml:lang="en">derived from</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">derived_from</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label xml:lang="en">has narrow synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P2561">
+        <rdfs:label xml:lang="en">name</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">name</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P486">
+        <rdfs:label xml:lang="en">MeSH Descriptor ID</rdfs:label>
+        <rdfs:comment xml:lang="en">Such as C004931 for DPPH or D008180 for systemic lupus erythematosus.</rdfs:comment>
+        <owlready_ontology:python_name xml:lang="en">mesh_descriptor_id</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/relation">
+        <rdfs:label xml:lang="en">relation</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P1149">
+        <rdfs:label xml:lang="en">Library of Congress Classification</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">library_of_congress_classification</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label xml:lang="en">has database cross reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/relation">
+        <rdfs:label xml:lang="en">relation</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P1748">
+        <rdfs:label xml:lang="en">NCI Thesaurus ID</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">nci_thesaurus_id</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label xml:lang="en">has broad synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Q1823134">
+        <rdfs:label xml:lang="en">Library of Congress Subject Headings</rdfs:label>
+        <owl:equivalentProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/dc/terms/LCSH</owl:equivalentProperty>
+        <Property:P214 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://viaf.org/viaf/174475040</Property:P214>
+        <owlready_ontology:python_name xml:lang="en">library_of_congress_subject_headings</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#python_name"/>
+    <owl:AnnotationProperty rdf:about="https://schema.org/alternateName">
+        <rdfs:label xml:lang="en">alternate name</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier">
+        <rdfs:label xml:lang="en">identifier</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">identifier_dc</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/replaces">
+        <rdfs:label xml:lang="en">replaces</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P3201">
+        <rdfs:label xml:lang="en">Medical Dictionary for Regulatory Activities ID</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">medical_dictionary_for_regulatory_activities_id</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#equivalentProperty">
+        <rdfs:label xml:lang="en">equivalent property</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label xml:lang="en">label</rdfs:label>
+        <rdfs:comment xml:lang="en">A human-readable name for the subject.</rdfs:comment>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P214">
+        <rdfs:label xml:lang="en">VIAF ID</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">viaf_id</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonym">
+        <rdfs:label xml:lang="en">has synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://schema.org/identifier">
+        <rdfs:label xml:lang="en">identifier</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">identifier_schema</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P155">
+        <rdfs:label xml:lang="en">follows</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">follows</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_000492 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_000492">
+        <rdfs:label xml:lang="en">knowledge content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <Property:P1036 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Property:P1036>
+        <obo:IAO_0000115 xml:lang="en">Information content entity that is an empirical result found to be meaningful to one or more person(s) or a community, such that it can be interpreted by them in ways that they value, and which arises from a systematic analytic and/or deliberative process of investigation and study of other information content entities, that are often, but not exclusively other data item(s), thereby accounting for those other information content entities.</obo:IAO_0000115>
+        <Property:P5191 xml:lang="en">content</Property:P5191>
+        <Property:P5191 xml:lang="en">knowledge</Property:P5191>
+        <Property:P1813 xml:lang="en">knowledge</Property:P1813>
+        <schema:alternateName xml:lang="en">knowledge content entities</schema:alternateName>
+        <oboInOwl:hasSynonym xml:lang="en">knowledge entity</oboInOwl:hasSynonym>
+        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_000526 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_000526">
+        <rdfs:label xml:lang="da">sexsygdomme</rdfs:label>
+        <rdfs:label xml:lang="en">sexually transmitted disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <schema:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://homosaurus.org/v2/STDs</schema:identifier>
+        <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh85142634</wiki:Q1823134>
+        <Property:P3201 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/MEDDRA/10040490</Property:P3201>
+        <Property:P486 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/MESH/D012749</Property:P486>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/MONDO_0021681</dc:identifier>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://homosaurus.org/terms/STDs</dc:identifier>
+        <obo:IAO_0000115 xml:lang="en">Diseases transmitted or propagated by sexual conduct.</obo:IAO_0000115>
+        <Property:P1149>RA644.V4</Property:P1149>
+        <Property:P1149>RC200-RC203</Property:P1149>
+        <Property:P1813 xml:lang="da">STD</Property:P1813>
+        <schema:alternateName xml:lang="da">seksuelt overførte sygdomme</schema:alternateName>
+        <Property:P1813 xml:lang="en">STD</Property:P1813>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">other sexually transmitted disease</oboInOwl:hasNarrowSynonym>
+        <terms:replaces xml:lang="en">other venereal disease</terms:replaces>
+        <schema:alternateName xml:lang="en">sexually transmitted diseases</schema:alternateName>
+        <oboInOwl:hasBroadSynonym xml:lang="en">sexually transmitted diseases and infections‎</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">sexually transmitted infectious disease</oboInOwl:hasSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">unspecified sexually transmitted disease</oboInOwl:hasNarrowSynonym>
+        <terms:replaces xml:lang="en">venereal disease</terms:replaces>
+        <terms:replaces xml:lang="en">venereal disease NOS</terms:replaces>
+        <terms:replaces xml:lang="en">venereal disease, unspecified</terms:replaces>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/GSSO_000529"/>
+        <Property:P828 rdf:resource="http://purl.obolibrary.org/obo/GSSO_000529"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20190102184708/https://www.theaidsinstitute.org/education/aids-101/glossary-hivaids-related-terms"/>
+        <terms:isReferencedBy rdf:resource="https://www.worldcat.org/oclc/940437564"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_002345 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_002345">
+        <rdfs:label xml:lang="en">knowledge field</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_000492"/>
+        <Property:P1748 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/NCIT_C70772</Property:P1748>
+        <obo:IAO_0000115 xml:lang="en">A branch of knowledge.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">area of knowledge</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">content area</oboInOwl:hasRelatedSynonym>
+        <Property:P1813 xml:lang="en">field</Property:P1813>
+        <oboInOwl:hasSynonym xml:lang="en">field of knowledge</oboInOwl:hasSynonym>
+        <schema:alternateName xml:lang="en">knowledge fields</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_002346 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_002346">
+        <rdfs:label xml:lang="en">humanities</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_002345"/>
+        <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh85062913</wiki:Q1823134>
+        <Property:P486 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/MESH/D006809</Property:P486>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Humanities</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Humanities</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Outline_of_the_humanities</oboInOwl:hasDbXref>
+        <Property:P1149>AZ</Property:P1149>
+        <obo:IAO_0000115 xml:lang="en">Fields of inquiry in human constructs and concerns as opposed to natural processes and social relations. These are traditionally the study of literature, philosophy, and religion.</obo:IAO_0000115>
+        <oboInOwl:hasSynonym xml:lang="en">the humanities</oboInOwl:hasSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_002368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_002368">
+        <rdfs:label xml:lang="en">basic humanities</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_002346"/>
+        <obo:IAO_0000115 xml:lang="en">Humanities fields that form the basis of humanities studies; i.e. non-applied humanities.</obo:IAO_0000115>
+        <Property:P5191 xml:lang="en">basic</Property:P5191>
+        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/GSSO_002346"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_003081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_003081">
+        <rdfs:label xml:lang="en">ethics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_003088"/>
+        <Property:P1036 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</Property:P1036>
+        <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh85045096</wiki:Q1823134>
+        <Property:P486 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/MESH/Q000941</Property:P486>
+        <Property:P1748 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/NCIT_C39796</Property:P1748>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Ethics</oboInOwl:hasDbXref>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://homosaurus.org/terms/ethics</dc:identifier>
+        <Property:P1149>BJ</Property:P1149>
+        <obo:IAO_0000115 xml:lang="en">A branch of philosophy that involves systematizing, defending, and recommending concepts of right and wrong conduct. The field of ethics, along with aesthetics, concerns matters of value, and thus comprises the branch of philosophy called axiology.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">moral philosophy</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+        <terms:isReferencedBy rdf:resource="https://books.google.com/books/?id=TYyGAAAAIAAJ"/>
+        <terms:isReferencedBy rdf:resource="https://www.worldcat.org/oclc/646833261"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_003088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_003088">
+        <rdfs:label xml:lang="en">basic philosophy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_002368"/>
+        <obo:IAO_0000115 xml:lang="en">Philosophy fields that form the basis of philosophy; i.e. non-applied philosophies.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">basic philosophies</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_003238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_003238">
+        <rdfs:label xml:lang="en">principle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_001183"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Principles</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Principle</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A proposition or value that is a guide for behavior or evaluation.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">principles</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_003239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_003239">
+        <rdfs:label xml:lang="en">ethical principle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_003238"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Ethical_principles</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">Principles which provide a framework within which ethical dilemmas and other problems may be analyzed.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">ethical principles</schema:alternateName>
+        <oboInOwl:hasSynonym xml:lang="en">principle of ethics</oboInOwl:hasSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_003291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_003291">
+        <rdfs:label xml:lang="en">right</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_003239"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Rights</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Rights</oboInOwl:hasDbXref>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://mamoura.eci.ufmg.br/tematres/vocab/index.php?tema=120</dc:identifier>
+        <schema:alternateName xml:lang="da">rettigheder</schema:alternateName>
+        <obo:IAO_0000115 xml:lang="en">Legal, social, or ethical principles of freedom or entitlement; that is, rights are the fundamental normative rules about what is allowed of people or owed to people, according to some legal system, social convention, or ethical theory.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">rights</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_003292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_003292">
+        <rdfs:label xml:lang="en">human right</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_003291"/>
+        <schema:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://homosaurus.org/v2/humanRights</schema:identifier>
+        <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh85026379</wiki:Q1823134>
+        <Property:P486 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/MESH/D006806</Property:P486>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Human_rights</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Human_rights</oboInOwl:hasDbXref>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://mamoura.eci.ufmg.br/tematres/vocab/index.php?tema=62</dc:identifier>
+        <Property:P1149>JC571-JC628</Property:P1149>
+        <Property:P1149>K3236-K3268.5</Property:P1149>
+        <schema:alternateName xml:lang="da">menneskerettigheder</schema:alternateName>
+        <obo:IAO_0000115 xml:lang="en">Moral principles or norms that describe certain standards of human behaviour and are regularly protected as natural and legal rights in municipal and international law. They are commonly understood as inalienable,[3] fundamental rights &quot;to which a person is inherently entitled simply because she or he is a human being&quot; and which are &quot;inherent in all human beings&quot;, regardless of their nation, location, language, religion, ethnic origin, or any other status.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">human rights</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20200721053627/https://sacred.omeka.net/glossary"/>
+        <terms:isReferencedBy rdf:resource="https://doi.org/10.1002/9781118663219"/>
+        <terms:isReferencedBy rdf:resource="https://www.worldcat.org/oclc/1080321952"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_003294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_003294">
+        <rdfs:label xml:lang="en">privacy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_009828"/>
+        <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh85107027</wiki:Q1823134>
+        <Property:P486 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/MESH/D018907</Property:P486>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Privacy</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Privacy</oboInOwl:hasDbXref>
+        <Property:P1149>BF637.P74</Property:P1149>
+        <obo:IAO_0000115 xml:lang="en">The ability of an individual or group to seclude themselves, or information about themselves, and thereby express themselves selectively. The boundaries and content of what is considered private differ among cultures and individuals.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">privacy right</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">right to privacy</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+        <terms:isReferencedBy rdf:resource="https://books.google.com/books/?id=TYyGAAAAIAAJ"/>
+        <terms:isReferencedBy rdf:resource="https://www.worldcat.org/oclc/646833261"/>
+        <terms:isReferencedBy rdf:resource="https://www.worldcat.org/oclc/940437564"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_003756 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_003756">
+        <rdfs:label xml:lang="en">applied ethics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_003081"/>
+        <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh93005640</wiki:Q1823134>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Applied_ethics</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Applied_ethics</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q538733</oboInOwl:hasDbXref>
+        <Property:P1036>172-179</Property:P1036>
+        <obo:IAO_0000115 xml:lang="en">The practical application of moral considerations. It is ethics with respect to real-world actions and their moral considerations in the areas of private and public life, the professions, health, technology, law, and leadership.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_003848 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_003848">
+        <rdfs:label xml:lang="en">science</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_002345"/>
+        <Property:P1036 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</Property:P1036>
+        <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh85118553</wiki:Q1823134>
+        <Property:P486 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/MESH/D012586</Property:P486>
+        <Property:P1748 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/NCIT_C61397</Property:P1748>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Science</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Science</oboInOwl:hasDbXref>
+        <Property:P1149>Q</Property:P1149>
+        <obo:IAO_0000115 xml:lang="en">The intellectual and practical activity encompassing the systematic study of the structure and behaviour of the physical and natural world through observation and experiment.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The study of natural phenomena by observation, measurement, and experimentation.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">sciences</schema:alternateName>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">scientific</oboInOwl:hasRelatedSynonym>
+        <Property:P3095 rdf:resource="http://purl.obolibrary.org/obo/GSSO_005758"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+        <terms:isReferencedBy rdf:resource="https://books.google.com/books/?id=TYyGAAAAIAAJ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_003850 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_003850">
+        <rdfs:label xml:lang="en">basic science</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_003848"/>
+        <obo:IAO_0000115 xml:lang="en">The development of scientific knowledge and predictions, principally in natural sciences but also in other empirical sciences, which are used as the scientific foundation for applied science. Basic science develops and establishes information to predict phenomena and perhaps to understand nature.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">basic sciences</schema:alternateName>
+        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/GSSO_003848"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_004917 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_004917">
+        <rdfs:label xml:lang="en">informed consent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25460"/>
+        <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh85066306</wiki:Q1823134>
+        <Property:P486 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/MESH/D007258</Property:P486>
+        <Property:P1748 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/NCIT_C16735</Property:P1748>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Informed_consent</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q764527</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A process for getting permission before conducting a health care intervention on a person, or for disclosing personal information. A health care provider may ask a patient to consent to receive therapy before providing it, or a clinical researcher may ask a research participant before enrolling that person into a clinical trial. Informed consent is collected according to guidelines from the fields of medical ethics and research ethics.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Consent by a patient to a surgical or medical procedure or participation in a clinical study after achieving an understanding of the relevant medical facts and the risks involved.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">This term is also used in other contexts, such as in social scientific research, when participants are asked to affirm that they understand the research procedure and consent to it, or in sex, where informed consent means each person engaging in sexual activity is aware of any positive statuses (for sexually transmitted infections and/or diseases) they might expose themselves to.</rdfs:comment>
+        <obo:IAO_0000115 xml:lang="en">Voluntary authorization, by a patient or research subject, with full comprehension of the risks involved, for diagnostic or investigative procedures, and for medical and surgical treatment.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_009049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_009049">
+        <rdfs:label xml:lang="en">formal science</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_003850"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Formal_sciences</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Formal_science</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q816264</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A branch of science studying formal language disciplines concerned with formal systems, such as logic, mathematics, statistics, theoretical computer science, artificial intelligence, information theory, game theory, systems theory, decision theory, and theoretical linguistics.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">formal sciences</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_009671 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_009671">
+        <rdfs:label xml:lang="en">biological ethics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_003756"/>
+        <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh85014136</wiki:Q1823134>
+        <Property:P486 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/MESH/D001675</Property:P486>
+        <Property:P1748 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/NCIT_C16340</Property:P1748>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Bioethics</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Bioethics</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q194294</oboInOwl:hasDbXref>
+        <Property:P1149>QH332</Property:P1149>
+        <obo:IAO_0000115 xml:lang="en">The study of the ethical issues emerging from advances in biology and medicine. It is also moral discernment as it relates to medical policy and practice. Bioethics are concerned with the ethical questions that arise in the relationships among life sciences, biotechnology, medicine and medical ethics, politics, law, theology and philosophy.</obo:IAO_0000115>
+        <oboInOwl:hasSynonym xml:lang="en">bioethics</oboInOwl:hasSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">biomedical ethics</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">health care ethics</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasBroadSynonym xml:lang="en">life sciences ethics</oboInOwl:hasBroadSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_009828 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_009828">
+        <rdfs:label xml:lang="en">information right</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_003292"/>
+        <obo:IAO_0000115 xml:lang="en">Any of various rights which relate to the communication, collection, access, use, and control of information.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">information rights</schema:alternateName>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">right to information</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_011171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_011171">
+        <rdfs:label xml:lang="en">informatics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_009049"/>
+        <Property:P486 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/MESH/D048088</Property:P486>
+        <Property:P1748 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/NCIT_C18145</Property:P1748>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Informatics</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q4027615</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">The study of the structure, algorithms, behavior, and interactions of natural and artificial computational systems.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_011173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_011173">
+        <rdfs:label xml:lang="en">data science</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_011174"/>
+        <Property:P486 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/MESH/D000077488</Property:P486>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Data_science</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q2374463</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">An interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from noisy, structured and unstructured data, and apply knowledge and actionable insights from data across a broad range of application domains.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">data sciences</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_011174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_011174">
+        <rdfs:label xml:lang="en">basic informatics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_011171"/>
+        <obo:IAO_0000115 xml:lang="en">The development of informatics knowledge and predictions, principally in natural sciences but also in other empirical sciences, which are used as the scientific foundation for applied informatics. Basic informatics develops and establishes information to predict phenomena and perhaps to understand nature.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25460 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25460"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_001183 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_001183"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://web.archive.org/web/20200721053627/https://sacred.omeka.net/glossary -->
+
+    <owl:NamedIndividual rdf:about="http://web.archive.org/web/20200721053627/https://sacred.omeka.net/glossary">
+        <rdfs:label xml:lang="en">Glossary (Anti-Racism Digital Library)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://books.google.com/books/?id=TYyGAAAAIAAJ -->
+
+    <owl:NamedIndividual rdf:about="https://books.google.com/books/?id=TYyGAAAAIAAJ">
+        <rdfs:label xml:lang="en">Encyclopedia of Homosexuality</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://doi.org/10.1002/9781118663219 -->
+
+    <owl:NamedIndividual rdf:about="https://doi.org/10.1002/9781118663219">
+        <rdfs:label xml:lang="en">The Wiley Blackwell Encyclopedia of Gender and Sexuality Studies</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://web.archive.org/web/20190102184708/https://www.theaidsinstitute.org/education/aids-101/glossary-hivaids-related-terms -->
+
+    <owl:NamedIndividual rdf:about="https://web.archive.org/web/20190102184708/https://www.theaidsinstitute.org/education/aids-101/glossary-hivaids-related-terms">
+        <rdfs:label xml:lang="en">Glossary of HIV/AIDS-Related Terms</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/ -->
+
+    <owl:NamedIndividual rdf:about="https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/">
+        <rdfs:label xml:lang="en">BDSM And Kink Terminology: A To Z</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.worldcat.org/oclc/1080321952 -->
+
+    <owl:NamedIndividual rdf:about="https://www.worldcat.org/oclc/1080321952">
+        <rdfs:label xml:lang="en">Global Encyclopedia of Lesbian, Gay, Bisexual, Transgender, and Queer (LGBTQ) History</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.worldcat.org/oclc/646833261 -->
+
+    <owl:NamedIndividual rdf:about="https://www.worldcat.org/oclc/646833261">
+        <rdfs:label xml:lang="en">LGBTQ America Today: An Encyclopedia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.worldcat.org/oclc/940437564 -->
+
+    <owl:NamedIndividual rdf:about="https://www.worldcat.org/oclc/940437564">
+        <rdfs:label xml:lang="en">Encyclopedia of Lesbian, Gay, Bisexual and Transgender History in America</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+
