@@ -8,10 +8,10 @@ https://bioportal.bioontology.org/ontologies/PICO
 # Creator
 Jian Guan (关健)
 M.D. The National Populatin and Health Scientific Data Centre; Peking Union Medical College Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College.
-Professor, PUMC Hospital
-Appointed Chairperson, Science Research Administration Branch, CMA
-Deputy editor in-Chief, J of Chineses Medical Ethics
-Deputy editor-in-chief, Chinese Journal of Medical Research Management Editor
+Professor, PUMC Hospital.
+Appointed Chairperson, Science Research Administration Branch, CMA.
+Deputy editor in-Chief, J of Chineses Medical Ethics.
+Deputy editor-in-chief, Chinese Journal of Medical Research Management Editor.
 Office: 086-010-69155816; Email: gjpumch@126.com
 Address: No.1, Shuaifuyuan, Dongcheng district, Beijing, China, 100730
 
